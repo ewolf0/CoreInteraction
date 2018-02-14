@@ -1,0 +1,16 @@
+html,body{
+/*	the thing in the comma is the second default font
+*/	font-family: 'Source Sans Pro', sans-serif;
+
+}
+h1{
+	font-weight: 200;
+}
+
+div ul{
+	font-weight:700;
+}
+
+.footer ul{
+	color:green;
+}
