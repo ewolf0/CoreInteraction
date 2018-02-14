@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	body{
+		background-color:orange;
+
+	}
+
+	div{
+		float:left;
+		width:50%;
+	}
+
+	@media screen and (max-width:600px){
+		/*what it says in these brackets is only executed when this is true -- this changes to purple when it's a certain size*/
+		body{
+			background-color:purple;
+		}
+
+		div{
+			float:none;
+			width:100%;
+		}
+
+	}
+
+	</style>
+</head>
+<body>
+
+	<div>
+		<ul>
+			<li>cheese</li>
+			<li>cheese</li>
+			<li>cheese</li>
+	</div>
+
+	<div>
+		<ul>
+			<li>bread</li>
+			<li>bread</li>
+			<li>bread</li>
+	</div>
+
+</body>
+</html>
