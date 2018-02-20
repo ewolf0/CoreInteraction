@@ -1,0 +1,98 @@
+body{
+		background-color:#e6f5ff;
+	}
+
+	nav li {
+		text-decoration: none;
+		font-size: 55px;
+		color:black;
+		padding:10px;
+		padding-top: 30px;
+		display:block;
+		width:100%;
+		background-color:#ccebff;
+		position:fixed;
+		text-align: center;
+		font-family: 'Cabin Sketch', cursive;
+		font-weight: bold;
+		}
+/*			
+	div .list #bottom {
+		padding: none;
+		}*/
+	div .list {
+		float:left;
+		width:40%;
+		padding:5%;
+		padding-top: 110px;
+		font-size: 18px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: lighter;
+		line-height: 200%;
+	}
+
+		div .list .section{
+		font-size:22px;
+		padding-left:8%;
+		font-family: 'Cabin Sketch', cursive;
+		line-height: 100%;
+	}
+
+		div .list .description{
+		font-size:15px;
+		padding-left:8%;
+		padding-right:40px;
+		line-height: 100%;
+	}
+
+	div .listB {
+		float:left;
+		width:40%;
+		padding:5%;
+		padding-top: 110px;
+		font-size: 18px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: lighter;
+		line-height: 200%;
+	}
+
+	div .listB .section{
+		font-size:22px;
+		padding-left:8%;
+		font-family: 'Cabin Sketch', cursive;
+		line-height: 100%;
+	}
+
+		div .listB .description{
+		font-size:15px;
+		padding-left:8%;
+		padding-right:40px;
+		line-height: 100%;
+	}
+
+	@media screen and (max-width:600px){
+		/*what it says in these brackets is only executed when this is true*/
+
+		div .list{
+			float:none;
+			width:100%;
+		}
+		
+		div .listB{
+			float:none;
+			width:100%;
+			padding-top:5%;
+		}
+
+
+/*		div .list .bottom{
+			padding: 0;
+
+		}*/
+
+
+	}
+
+
+
+
