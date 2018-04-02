@@ -1,0 +1,73 @@
+
+
+div p {
+	font-size:3vw;
+	font-weight: 400;
+	margin-left: 20vw;
+}
+
+
+#quiz{
+	padding-top:13vh;
+	padding-bottom:8vh;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+div .questions{
+	padding-bottom:5vh;
+}
+
+	div label{
+		font-size:2.5vw;
+		font-weight: 300;
+	}
+
+div .option{
+	margin-left: 23vw;
+
+}
+
+
+#button{
+	font-family: 'Roboto', sans-serif;
+	font-size:2.8vw;
+	background:none;
+	border-width: 2px;
+	border-color: black;
+	margin-left: 45vw;
+}
+
+#button:hover{
+	background-color: black;
+	color:white;
+	cursor:pointer;
+}
+
+
+#home{
+	font-family: 'Roboto', sans-serif;
+	font-size:2vw;
+	background-color:black;
+	border-width: 2px;
+	color:white;
+	border-color: white;
+	text-align: left;
+	margin-top:5vh;
+	margin-left: 4vw;
+}
+
+#home:hover{
+	background-color: black;
+	color:black;
+	cursor:pointer;
+	background-color: white;
+	border-color: black;
+
+}
+
+
+
+
+
+

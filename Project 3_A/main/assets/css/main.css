@@ -1,0 +1,67 @@
+
+div{
+	float:left;
+}
+
+
+h1{
+	font-family: sans-serif;
+	text-align: center;
+	font-size:4vw;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+
+}
+/*h2{
+font-family: 'Roboto', sans-serif;
+
+}*/
+
+div .options{
+	float:left;
+}
+
+div #empty{
+	width:10vw;
+}
+
+#about{
+	font-family: 'Roboto', sans-serif;
+	font-size:2vw;
+	background-color:white;
+	border-width: 2px;
+	color:black;
+	border-color: black;
+	text-align: left;
+	margin-top:5vh;
+	margin-left: 6vw;
+}
+
+#about:hover{
+	background-color: black;
+	color:white;
+	cursor:pointer;
+	border-color: black;
+
+}
+
+#startquiz{
+	font-family: 'Roboto', sans-serif;
+	font-size:2vw;
+	background-color:white;
+	border-width: 2px;
+	color:black;
+	border-color: black;
+	text-align: left;
+	margin-top:5vh;
+	margin-left: 16vw;
+}
+
+#startquiz:hover{
+	background-color: black;
+	color:white;
+	cursor:pointer;
+	border-color: black;
+
+}
+

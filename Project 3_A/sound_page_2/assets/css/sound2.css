@@ -1,0 +1,45 @@
+
+
+h1{
+
+	font-size: 20px;
+}
+
+
+.play-button{
+	width:0;
+	height:0;
+	border-top:8vw solid transparent;
+	border-left: 16vw solid #9f53ef;
+	border-bottom: 8vw solid transparent;
+	background: none;
+
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top: -8vw;
+	margin-left: -7vw;
+}
+
+
+
+#home{
+	font-family: 'Roboto', sans-serif;
+	font-size:2vw;
+	background-color:black;
+	border-width: 2px;
+	color:white;
+	border-color: white;
+	text-align: left;
+	margin-top:5vh;
+	margin-left: 4vw;
+}
+
+#home:hover{
+	background-color: black;
+	color:black;
+	cursor:pointer;
+	background-color: white;
+	border-color: black;
+
+}
