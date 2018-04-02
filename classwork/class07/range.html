@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<style>
+div{
+	position:absolute;
+}
+</style>
+
+</head>
+<body>
+</body>
+<script>
+// examples of functions:
+// 		math.random()
+// 		document.getElementById()
+// 		getHeight()
+// 		parseInt()
+
+	function randomInt(low, high){
+			// technically ^these are like saying var low and var high. Every time we do the (-100,900) we're "calling it"
+		var random = parseInt(Math.random()*(high-low)+low);
+		return random;
+		// the return is the value tha† comes out on the other end
+	}
+
+	var myInt = randomInt(-100, 900)
+		// we're calling the function --> (return):when the function is done, here's what u turn into 
+		// 
+	console.log ( myInt );
+
+
+</script>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

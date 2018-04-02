@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+<style>
+
+	p{
+		position:absolute;
+		font-size:4em;
+		margin:0;
+	}
+
+</style>
+
+</head>
+<body>
+
+</body>
+
+
+<script>
+
+
+	var array = []
+
+	document.onmousemove = function(event){
+		var letter = document.createElement("p");
+		letter.velocity = 1;
+		letter.style.top = event.y + "px";
+		letter.style.left = event.x + "px";
+		letter.style.transform = "rotate(" + 20 + "deg)";
+		var letters = "ellie";
+		letter.innerHTML = "ellie";
+		// letter.innerHTML = allLetters[3]
+		// 		this will give us back "D" because its the third letter
+		document.body.appendChild(letter);
+		array.push( letter );
+	}
+
+
+	function loop(){
+		var counter = 0;
+		while(counter < array.length){
+			// console.log(array[counter].innerHTML);
+			
+			var letter = array[counter];
+			var y = parseInt( letter.style.top );
+			y = y+ letter.velocity;
+			letter.velocity = letter.velocity + 0.1;
+			
+			if(y > window.innerHeight-50){
+				y = window.innerHeight-50;
+				letter.velocity = -letter.velocity * .9;
+			}
+
+			letter.style.top = y + "px";
+
+			counter = counter +1;
+			// while loop inside of the loop function
+		}
+
+	}
+
+	setInterval(loop, 1000/60);
+	// tells computer to run this function every number of milliseconds
+	// this will run 60x a second
+	// this is how you make animations
+
+
+</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

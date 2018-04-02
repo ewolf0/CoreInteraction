@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+
+
+
+<script>
+
+
+var array = ["temp", "chanceofrain", "humidity"]
+[48.158537, .1, .5]
+// var array is how you "store" an array in a variable
+
+// array
+// 	[]
+
+// object
+// 	{}
+
+// below, made the object (stuff in brackets) and storing it in a variable
+var weather = {
+	"temperature" : 48.15,
+	"chanceofrain" : .1,
+	"humidity" : .5
+}
+
+console.log(weather);
+
+console.log(weather["temperature"]);
+	// just pulled a variable out of an object
+
+// below, putting an array in an array [[],[]]
+var doublearray = [
+	["apple", "pear"],
+	["strawberry", "blueberry"],
+	["potato", "leek"]
+]
+	
+console.log(doublearray[1][1]);
+// using two square brackets. one to get the inside array ["strawberry", "blueberry"] and one more to get us blueberry
+// using the number 1 bc the numbers start at 0 (?)
+//this is the same as:
+var innerArray = doublearray[1];
+console.log( innerArray[1]);
+
+
+
+// below: objects inside of objects
+var classmates = {
+	// now must type a STRING
+
+	"Ellie" : {
+		"breakfast" : "oatmeal",
+		"animal" : "alpaca"
+	},
+	// to add more we added a COMMA next to }
+	"Xingman" : {
+		"breakfast" : "pancakes",
+		"animal" : "deer"
+	},
+	"Taylor" : {
+		"breakfast" : "cereal",
+		"animal" : "elephant"
+	}
+
+}
+
+console.log(classmates);
+console.log(classmates["Ellie"]["animal"]);
+
+
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+	html,body{
+		height:100%;
+	}
+
+	body{
+		margin:0;
+		display:flex;
+		flex-direction:column;
+	}
+
+	div{
+		flex:1;
+	}
+
+</style>
+</head>
+<body>
+
+</body>
+
+
+<script>
+
+var counter = 0;
+
+while (counter < 10){
+	var d = document.createElement("div");
+
+	var red = parseInt(Math.random()*256);
+	// math should have uppercase M to work
+	var green = parseInt(Math.random()*256);
+	var blue = parseInt(Math.random()*256);
+	// rgb (255,0,0);
+	// building the answer backwards
+	var color = "rgb(" + red + ", " + green + ", " + blue + ")";
+	// 		rgb(255, 200, 180)
+	// made a string of the rgb(_,_,_) that just breaks up the line
+	// the red, green, etc are NUMBERS and they get converted to strings
+	console.log(color);
+	d.style.backgroundColor = color;
+	document.body.appendChild(d);
+	// div didn't exist on the page until we added appendChild --> what does this mean...?
+	counter = counter + 1;
+}
+	
+	// console.log(window.innerHeight);
+	
+
+</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
