@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+
+<script>
+
+var url = "https://api.citybik.es/v2/networks/citi-bike-nyc";
+
+var myLat = 40.7357401;
+var myLon = -73.9901725;
+
+
+// $.getJSON(url, function(){});
+// passing in 2 things
+
+$.getJSON(url, function(data){
+	// console.log(data);
+	// var stations = data.network.stations;
+
+	var stations = data.network.stations.sort(function(a,b){
+// comparing lat and lon of each station, subtracting, closest = 0
+
+	var latA = Math.abs( a.latitude - myLat );
+	var lonA = Math.abs(a.longitude - myLon );
+
+	var latB = Math.abs( b.latitude - myLat );
+	var lonB = Math.abs(b.longitude - myLon );
+
+	return (latA+lonA) - (latB+lonB);
+
+	});
+
+
+	console.log(stations);
+	// by doing this we're going inside of the object which has objects and arrays inside of it
+	// need to make a loop to get all the station names bc we're asking the comp to do it 809 x
+
+	// var i = 0;
+	// while (i<809){
+	// 	i = i+1;
+	// }
+// these loops are basically the same thing
+
+// using stations.length instead of 809 bc we can expect the number to change bc they're expanding daily
+
+	console.log(stations[100]);
+
+	for(var i = 0; i < stations.length; i = i+1){
+		// console.log(stations[i].name);
+		var p = document.createElement("p");
+		p.innerHTML = stations[i].free_bikes + " : " + stations[i].name;
+		document.body.appendChild(p);
+
+	}
+
+
+} );
+
+
+
+
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
