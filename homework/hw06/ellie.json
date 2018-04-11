@@ -1,0 +1,24 @@
+{
+	"name":[ "Ellie",
+			"Melissa",
+			"Wolfond"
+	],
+
+	"home": {
+		"latitude":43.6863348,
+		"longitude": -79.4015623
+	},
+
+	"url": { "github":"https://github.com/ewolf0"
+	},
+
+	"favorites":{
+		"colour":"#62773e",
+		"book":{
+			"title":"The Undoing Project",
+			"author":"Michael Lewis"
+		},
+		"tool":"illustrator",
+		"temperature":24
+	}
+}
