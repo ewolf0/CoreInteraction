@@ -11,7 +11,7 @@
 				"platinum"
 			],
 			"weight" : 6.0,
-			"imageurl" : "https://github.com/ewolf0/CoreInteraction/blob/master/studio%20project%204/assets/img/ring01.jpeg"
+			"imageurl" : "assets/img/ring01.jpeg"
 		},
 
 		{
@@ -39,7 +39,8 @@
 				"diamond",
 				"platinum"
 			],
-			"weight" : 4.4
+			"weight" : 4.4,
+			"imageurl" : "assets/img/ring03.jpeg"
 		},
 
 		{
@@ -52,7 +53,8 @@
 				"diamond",
 				"white gold"
 			],
-			"weight" : 0
+			"weight" : 0,
+			"imageurl" : "assets/img/ring04.jpeg"
 		},
 
 		{
@@ -65,7 +67,8 @@
 				"diamond",
 				"platinum"
 			],
-			"weight" : 4.5
+			"weight" : 4.5,
+			"imageurl" : "assets/img/ring05.jpeg"
 		},
 
 		{
@@ -78,7 +81,8 @@
 				"diamond",
 				"platinum"
 			],
-			"weight" : 4.5
+			"weight" : 4.5,
+			"imageurl" : "assets/img/ring06.jpeg"
 		},
 
 		{
@@ -91,7 +95,8 @@
 				"diamond",
 				"platinum"
 			],
-			"weight" : 5.7
+			"weight" : 5.7,
+			"imageurl" : "assets/img/ring07.jpeg"
 		},
 
 		{
@@ -104,7 +109,8 @@
 				"diamond",
 				"platinum"
 			],
-			"weight" : 5.4
+			"weight" : 5.4,
+			"imageurl" : "assets/img/ring08.jpeg"
 		},
 
 		{
@@ -117,7 +123,8 @@
 				"diamond",
 				"platinum"
 			],
-			"weight" : 0
+			"weight" : 0,
+			"imageurl" : "assets/img/ring09.jpeg"
 		},
 
 		{
@@ -129,7 +136,8 @@
 				"diamond",
 				"platinum"
 			],
-			"weight" : 0
+			"weight" : 0,
+			"imageurl" : "assets/img/ring10.jpeg"
 		},
 
 		{
@@ -142,7 +150,8 @@
 				"diamond",
 				"platinum"
 			],
-			"weight" : 0
+			"weight" : 0,
+			"imageurl" : "assets/img/ring11.jpeg"
 		},
 
 		{
@@ -156,7 +165,8 @@
 				"black enamel",
 				"platinum"
 			],
-			"weight" : 7.7
+			"weight" : 7.7,
+			"imageurl" : "assets/img/ring12.jpeg"
 		},
 
 		{
@@ -168,7 +178,8 @@
 				"diamond",
 				"platinum"
 			],
-			"weight" : 0
+			"weight" : 0,
+			"imageurl" : "assets/img/ring13.jpeg"
 		},
 
 		{
@@ -183,7 +194,8 @@
 				"black onyx",
 				"platinum"
 			],
-			"weight" : 6.1
+			"weight" : 6.1,
+			"imageurl" : "assets/img/ring14.jpeg"
 		},
 
 		{
@@ -196,7 +208,8 @@
 				"diamond",
 				"platinum"
 			],
-			"weight" : 11.3
+			"weight" : 11.3,
+			"imageurl" : "assets/img/ring15.jpeg"
 		},
 
 		{
@@ -209,7 +222,8 @@
 				"diamond",
 				"platinum"
 			],
-			"weight" : 5.8
+			"weight" : 5.8,
+			"imageurl" : "assets/img/ring16.jpeg"
 		},
 
 

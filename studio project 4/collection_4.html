@@ -33,7 +33,7 @@ $.getJSON(url, function(data){
 	for (var i = 0; i < data.mycollection.length; i++) {
 
 		$("#info").append("<p>" + data.mycollection[i].imageurl + "</p>")
-		$("#info").append("<img src='" + data.mycollection[i].imageurl + "'>")
+		$("#info").append("<div class='aclass'><div>new class</div><img src='" + data.mycollection[i].imageurl + "'></div>")
 
 		// where is says "body" --> you can attach it to anything like any div to have the info show up in a specific area
 
