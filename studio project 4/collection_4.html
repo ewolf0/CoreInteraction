@@ -14,7 +14,7 @@
 
 <div id="info"></div>
 
-
+<img src="assets/img/ring02.jpeg">
 
 
 <script>
@@ -32,7 +32,8 @@ $.getJSON(url, function(data){
 
 	for (var i = 0; i < data.mycollection.length; i++) {
 
-		$(".info").append("<p>" + data.mycollection[i].imageurl + "</p>")
+		$("#info").append("<p>" + data.mycollection[i].imageurl + "</p>")
+		$("#info").append("<img src='" + data.mycollection[i].imageurl + "'>")
 
 		// where is says "body" --> you can attach it to anything like any div to have the info show up in a specific area
 
