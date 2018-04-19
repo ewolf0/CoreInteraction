@@ -2,7 +2,7 @@
 	"mycollection" : [
 		{
 			"title" : "ring 1",
-			"date" : "1930",
+			"date" : 1930,
 			"price" : 5500,
 			"estimate" :[2300, 3000],
 			"materials" : [
@@ -10,12 +10,13 @@
 				"diamond",
 				"platinum"
 			],
-			"weight" : 6.0
+			"weight" : 6.0,
+			"imageurl" : "https://github.com/ewolf0/CoreInteraction/blob/master/studio%20project%204/assets/img/ring01.jpeg"
 		},
 
 		{
 			"title" : "ring 2",
-			"date" : "1930",
+			"date" : 1930,
 			"price" : 3200,
 			"estimate" : [3200, 3800],
 			"materials" : [
@@ -28,7 +29,7 @@
 
 		{
 			"title" : "ring 3",
-			"date" : "1925",
+			"date" : 1925,
 			"price" : 12000,
 			"estimate" : [2000, 3000],
 			"materials" : [
@@ -41,7 +42,7 @@
 
 		{
 			"title" : "ring 4",
-			"date" : "1920",
+			"date" : 1920,
 			"price" : 900,
 			"estimate" : [700,900],
 			"materials" : [
@@ -54,7 +55,7 @@
 
 		{
 			"title" : "ring 5",
-			"date" : "1920",
+			"date" : 1920,
 			"price" : 650,
 			"estimate" : [250,350],
 			"materials" : [
@@ -67,7 +68,7 @@
 
 		{
 			"title" : "ring 6",
-			"date" : "1920",
+			"date" : 1920,
 			"price" : 1800,
 			"estimate" : [600, 800],
 			"materials" : [
@@ -80,7 +81,7 @@
 
 		{
 			"title" : "ring 7",
-			"date" : "1930",
+			"date" : 1930,
 			"price" : 2000,
 			"estimate" : [2000, 2600],
 			"materials" : [
@@ -93,7 +94,7 @@
 
 		{
 			"title" : "ring 8",
-			"date" : "1920",
+			"date" : 1920,
 			"price" : 2800,
 			"estimate" : [600, 800],
 			"materials" : [
@@ -106,7 +107,7 @@
 
 		{
 			"title" : "ring 9",
-			"date" : "1920",
+			"date" : 1920,
 			"price" : 13000,
 			"estimate" : [12000, 15000],
 			"materials" : [
@@ -119,7 +120,7 @@
 
 		{
 			"title" : "ring 10",
-			"date" : "1930",
+			"date" : 1930,
 			"price" : 6000,
 			"estimate" : [1800, 2400],
 			"materials" : [
@@ -131,7 +132,7 @@
 
 		{
 			"title" : "ring 11",
-			"date" : "1930",
+			"date" : 1930,
 			"price" : 1500,
 			"estimate" : [700, 900],
 			"materials" : [
@@ -144,7 +145,7 @@
 
 		{
 			"title" : "ring 12",
-			"date" : "1925",
+			"date" : 1925,
 			"price" : 4800,
 			"estimate" : [1200, 1500],
 			"materials" : [
@@ -158,7 +159,7 @@
 
 		{
 			"title" : "ring 13",
-			"date" : "1930",
+			"date" : 1930,
 			"price" : 6000,
 			"estimate" : [5500, 6500],
 			"materials" : [
@@ -170,7 +171,7 @@
 
 		{
 			"title" : "ring 14",
-			"date" : "1920",
+			"date" : 1920,
 			"price" : 5000,
 			"estimate" : [6000, 7000],
 			"materials" : [
@@ -185,7 +186,7 @@
 
 		{
 			"title" : "ring 15",
-			"date" : "1930",
+			"date" : 1930,
 			"price" : 950,
 			"estimate" : [400, 500],
 			"materials" : [
@@ -198,7 +199,7 @@
 
 		{
 			"title" : "ring 16",
-			"date" : "1920",
+			"date" : 1920,
 			"price" : 1900,
 			"estimate" : [1800, 2000],
 			"materials" : [
@@ -218,7 +219,7 @@
 
 		{
 			"title" : "bracelet 1",
-			"date" : "1925",
+			"date" : 1925,
 			"price" : 3200,
 			"estimate" : [2600, 3600],
 			"materials" : [
@@ -231,7 +232,7 @@
 
 		{
 			"title" : "bracelet 2",
-			"date" : "1930",
+			"date" : 1930,
 			"price" : 5500,
 			"estimate" : [4000, 6000],
 			"materials" : [
@@ -243,7 +244,7 @@
 
 		{
 			"title" : "bracelet 3",
-			"date" : "1925",
+			"date" : 1925,
 			"price" : 20000,
 			"estimate" : [20000, 30000],
 			"materials" : [
@@ -256,7 +257,7 @@
 
 		{
 			"title" : "bracelet 4",
-			"date" : "1930",
+			"date" : 1930,
 			"price" : 38000,
 			"estimate" : [8000, 10000],
 			"materials" : [
@@ -270,7 +271,7 @@
 
 		{
 			"title" : "bracelet 5",
-			"date" : "1930",
+			"date" : 1930,
 			"price" : 26000,
 			"estimate" : [26000, 36000],
 			"materials" : [
@@ -283,7 +284,7 @@
 
 		{
 			"title" : "bracelet 6",
-			"date" : "1925",
+			"date" : 1925,
 			"price" : 15000,
 			"estimate" : [15000, 20000],
 			"materials" : [
@@ -296,7 +297,7 @@
 
 		{
 			"title" : "bracelet 7",
-			"date" : "1930",
+			"date" : 1930,
 			"price" : 30000,
 			"estimate" : [20000, 30000],
 			"materials" : [
@@ -309,7 +310,7 @@
 
 		{
 			"title" : "bracelet 8",
-			"date" : "1930",
+			"date" : 1930,
 			"price" : 26000,
 			"estimate" : [20000, 30000],
 			"materials" : [
@@ -331,7 +332,7 @@
 
 		{
 			"title" : "brooch 1",
-			"date" : "1930",
+			"date" : 1930,
 			"price" : 2000,
 			"estimate" : [2000, 3000],
 			"materials" : [
@@ -344,7 +345,7 @@
 
 		{
 			"title" : "brooch 2",
-			"date" : "1925",
+			"date" : 1925,
 			"price" : 5000,
 			"estimate" : [5000, 7000],
 			"materials" : [
@@ -356,7 +357,7 @@
 
 		{
 			"title" : "brooch 3",
-			"date" : "1935",
+			"date" : 1935,
 			"price" : 2000,
 			"estimate" : [1800, 2400],
 			"materials" : [
@@ -371,7 +372,7 @@
 
 		{
 			"title" : "brooch 4",
-			"date" : "1930",
+			"date" : 1930,
 			"price" : 11000,
 			"estimate" : [10000, 14000],
 			"materials" : [
@@ -383,7 +384,7 @@
 
 		{
 			"title" : "brooch 5",
-			"date" : "1920",
+			"date" : 1920,
 			"price" : 3000,
 			"estimate" : [2000, 3000],
 			"materials" : [
@@ -397,7 +398,7 @@
 
 		{
 			"title" : "brooch 6",
-			"date" : "1930",
+			"date" : 1930,
 			"price" : 7000,
 			"estimate" : [6500, 7500],
 			"materials" : [
@@ -410,7 +411,7 @@
 
 		{
 			"title" : "brooch 7",
-			"date" : "1920",
+			"date" : 1920,
 			"price" : 2600,
 			"estimate" : [2600, 3000],
 			"materials" : [
@@ -422,7 +423,7 @@
 
 		{
 			"title" : "brooch 8",
-			"date" : "1925",
+			"date" : 1925,
 			"price" : 2600,
 			"estimate" : [2600, 3400],
 			"materials" : [
@@ -434,7 +435,7 @@
 
 		{
 			"title" : "brooch 9",
-			"date" : "1920",
+			"date" : 1920,
 			"price" : 2600,
 			"estimate" : [3000, 4000],
 			"materials" : [
@@ -446,7 +447,7 @@
 
 		{
 			"title" : "brooch 10",
-			"date" : "1925",
+			"date" : 1925,
 			"price" : 3200,
 			"estimate" : [2500, 3000],
 			"materials" : [
@@ -459,7 +460,7 @@
 
 		{
 			"title" : "brooch 11",
-			"date" : "1920",
+			"date" : 1920,
 			"price" : 17000,
 			"estimate" : [15000, 20000],
 			"materials" : [
@@ -472,7 +473,7 @@
 
 		{
 			"title" : "brooch 12",
-			"date" : "1920",
+			"date" : 1920,
 			"price" : 3000,
 			"estimate" : [3000, 4000],
 			"materials" : [
@@ -486,7 +487,7 @@
 
 		{
 			"title" : "brooch 13",
-			"date" : "1930",
+			"date" : 1930,
 			"price" : 2200,
 			"estimate" : [2500, 3500],
 			"materials" : [
@@ -499,7 +500,7 @@
 
 		{
 			"title" : "brooch 14",
-			"date" : "1920",
+			"date" : 1920,
 			"price" : 12000,
 			"estimate" : [13000, 17000],
 			"materials" : [
@@ -513,7 +514,7 @@
 
 		{
 			"title" : "brooch 15",
-			"date" : "1925",
+			"date" : 1925,
 			"price" : 12000,
 			"estimate" : [12000, 15000],
 			"materials" : [
@@ -525,7 +526,7 @@
 
 		{
 			"title" : "brooch 16",
-			"date" : "1920",
+			"date" : 1920,
 			"price" : 3800,
 			"estimate" : [4000, 5000],
 			"materials" : [
