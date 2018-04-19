@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+</head>
+<body>
+
+
+<script>
+
+var url = "https://raw.githubusercontent.com/ewolf0/CoreInteraction/master/studio%20project%204/collection_4.json";
+
+
+
+// console.log(url);
+
+
+$.getJSON(url, function(data){
+	//console.log(data.mycollection);
+	//data.mycollection.sort();
+
+	for (var i = 0; i < data.mycollection.length; i++) {
+
+		$("body").append("<p>" + data.mycollection[i].date + "</p>")
+
+		// where is says "body" --> you can attach it to anything like any div to have the info show up in a specific area
+
+	}
+})
+
+
+</script>
+
+
+
+
+
+</body>
+</html>
