@@ -3,6 +3,10 @@
 <head>
 	<title></title>
 
+	<link rel="stylesheet" type="text/css" href="/assets/css/collection.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400i,800" rel="stylesheet">
+
 <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
@@ -10,16 +14,26 @@
 <body>
 
 
-<div></div>
+<div>
+	
+	<h1>MY COLLECTION</h1>
+
+
+<P>RJBIBVIJNCNMNCONDONCOjnovfnoncodeneonuregjringceoirhgrnirnirnirnornoe</P>
+
+</div>
 
 <div id="info"></div>
 
-<img src="assets/img/ring02.jpeg">
+<!-- <img src="assets/img/ring02.jpeg"> -->
+
+
+
 
 
 <script>
 
-var url = "https://raw.githubusercontent.com/ewolf0/CoreInteraction/master/studio%20project%204/collection_4.json";
+var url = "https://raw.githubusercontent.com/ewolf0/CoreInteraction/master/studio_project_4/collection_4.json";
 
 
 
@@ -27,7 +41,7 @@ var url = "https://raw.githubusercontent.com/ewolf0/CoreInteraction/master/studi
 
 
 $.getJSON(url, function(data){
-	//console.log(data.mycollection);
+	console.log(data.mycollection);
 	//data.mycollection.sort();
 
 	for (var i = 0; i < data.mycollection.length; i++) {
