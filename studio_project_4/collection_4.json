@@ -243,7 +243,8 @@
 				"diamond",
 				"platinum"
 			],
-			"weight" : 23.7
+			"weight" : 23.7,
+			"imageurl" : "assets/img/bracelet01.jpeg"
 		},
 
 		{
@@ -255,7 +256,8 @@
 				"diamond",
 				"platinum"
 			],
-			"weight" : 42.5
+			"weight" : 42.5,
+			"imageurl" : "assets/img/bracelet02.jpeg"
 		},
 
 		{
@@ -268,7 +270,8 @@
 				"diamond",
 				"platinum"
 			],
-			"weight" : 40.4
+			"weight" : 40.4,
+			"imageurl" : "assets/img/bracelet03.jpeg"
 		},
 
 		{
@@ -282,7 +285,8 @@
 				"diamond",
 				"platinum"
 			],
-			"weight" : 38.5
+			"weight" : 38.5,
+			"imageurl" : "assets/img/bracelet04.jpeg"
 		},
 
 		{
@@ -295,7 +299,8 @@
 				"diamond",
 				"platinum"
 			],
-			"weight" : 0
+			"weight" : 0,
+			"imageurl" : "assets/img/bracelet05.jpeg"
 		},
 
 		{
@@ -308,7 +313,8 @@
 				"diamond",
 				"platinum"
 			],
-			"weight" : 29.3
+			"weight" : 29.3,
+			"imageurl" : "assets/img/bracelet06.jpeg"
 		},
 
 		{
@@ -321,7 +327,8 @@
 				"diamond",
 				"platinum"
 			],
-			"weight" : 42.9
+			"weight" : 42.9,
+			"imageurl" : "assets/img/bracelet07.jpeg"
 		},
 
 		{
@@ -334,7 +341,8 @@
 				"diamond",
 				"platinum"
 			],
-			"weight" : 40.7
+			"weight" : 40.7,
+			"imageurl" : "assets/img/bracelet08.jpeg"
 		},
 
 
@@ -356,7 +364,8 @@
 				"diamond",
 				"platinum"
 			],
-			"weight" : 11.7
+			"weight" : 11.7,
+			"imageurl" : "assets/img/brooch01.jpeg"
 		},
 
 		{
@@ -368,7 +377,8 @@
 				"diamond",
 				"platinum"
 			],
-			"weight" : 12.5
+			"weight" : 12.5,
+			"imageurl" : "assets/img/brooch02.jpeg"
 		},
 
 		{
@@ -383,7 +393,8 @@
 				"platinum",
 				"yellow gold"
 			],
-			"weight" : 18.0
+			"weight" : 18.0,
+			"imageurl" : "assets/img/brooch03.jpeg"
 		},
 
 		{
@@ -395,7 +406,8 @@
 				"diamond",
 				"platinum"
 			],
-			"weight" : 14.3
+			"weight" : 14.3,
+			"imageurl" : "assets/img/brooch04.jpeg"
 		},
 
 		{
@@ -409,7 +421,8 @@
 				"black onyx",
 				"platinum"
 			],
-			"weight" : 14.0
+			"weight" : 14.0,
+			"imageurl" : "assets/img/brooch05.jpeg"
 		},
 
 		{
@@ -422,7 +435,8 @@
 				"diamond",
 				"platinum"
 			],
-			"weight" : 15.0
+			"weight" : 15.0,
+			"imageurl" : "assets/img/brooch06.jpeg"
 		},
 
 		{
@@ -434,7 +448,8 @@
 				"diamond",
 				"platinum"
 			],
-			"weight" : 0
+			"weight" : 0,
+			"imageurl" : "assets/img/brooch07.jpeg"
 		},
 
 		{
@@ -446,7 +461,8 @@
 				"diamond",
 				"platinum"
 			],
-			"weight" : 0
+			"weight" : 0,
+			"imageurl" : "assets/img/brooch08.jpeg"
 		},
 
 		{
@@ -458,7 +474,8 @@
 				"diamond",
 				"platinum"
 			],
-			"weight" : 14.2
+			"weight" : 14.2,
+			"imageurl" : "assets/img/brooch09.jpeg"
 		},
 
 		{
@@ -471,7 +488,8 @@
 				"diamond",
 				"platinum"
 			],
-			"weight" : 6.5
+			"weight" : 6.5,
+			"imageurl" : "assets/img/brooch10.jpeg"
 		},
 
 		{
@@ -484,7 +502,8 @@
 				"diamond",
 				"platinum"
 			],
-			"weight" : 18.9
+			"weight" : 18.9,
+			"imageurl" : "assets/img/brooch11.jpeg"
 		},
 
 		{
@@ -498,7 +517,8 @@
 				"diamonds",
 				"platinum"
 			],
-			"weight" : 10.0
+			"weight" : 10.0,
+			"imageurl" : "assets/img/brooch12.jpeg"
 		},
 
 		{
@@ -511,7 +531,8 @@
 				"diamond",
 				"platinum"
 			],
-			"weight" : 10.4
+			"weight" : 10.4,
+			"imageurl" : "assets/img/brooch13.jpeg"
 		},
 
 		{
@@ -525,7 +546,8 @@
 				"diamond",
 				"platinum"
 			],
-			"weight" : 14.3
+			"weight" : 14.3,
+			"imageurl" : "assets/img/brooch14.jpeg"
 		},
 
 		{
@@ -537,7 +559,8 @@
 				"diamond",
 				"platinum"
 			],
-			"weight" : 12.5
+			"weight" : 12.5,
+			"imageurl" : "assets/img/brooch15.jpeg"
 		},
 
 		{
@@ -550,7 +573,8 @@
 				"diamond",
 				"platinum"
 			],
-			"weight" : 22.6
+			"weight" : 22.6,
+			"imageurl" : "assets/img/brooch16.jpeg"
 		}
 
 
