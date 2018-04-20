@@ -3,9 +3,15 @@
 <head>
 	<title></title>
 
-	<link rel="stylesheet" type="text/css" href="/assets/css/collection.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/collection.css">
 
-	<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400i,800" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+
+	<!-- <link rel="stylesheet" type="text/css" href="./assets/js/collection.js"> -->
+
+	<link rel="stylesheet" type="text/javascript" href="collection.js">
+
+	<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400i,800, 800i" rel="stylesheet">
 
 <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
@@ -14,48 +20,25 @@
 <body>
 
 
-<div>
+<div class="header">
 	
-	<h1>MY COLLECTION</h1>
+	<div class="top">
+		<div class="buttons">
+			<div class="button1">words1</div>
+			<div class="button2">words2</div>
+		</div>
 
+		<div class="title">
+			<h1>MY COLLECTION</h1>
+		</div>
 
-<P>RJBIBVIJNCNMNCONDONCOjnovfnoncodeneonuregjringceoirhgrnirnirnirnornoe</P>
+	</div>
+
+	<!-- ****** ADD A DIV IN HERE FOR INFO BARS -->
 
 </div>
 
 <div id="info"></div>
-
-<!-- <img src="assets/img/ring02.jpeg"> -->
-
-
-
-
-
-<script>
-
-var url = "https://raw.githubusercontent.com/ewolf0/CoreInteraction/master/studio_project_4/collection_4.json";
-
-
-
-// console.log(url);
-
-
-$.getJSON(url, function(data){
-	console.log(data.mycollection);
-	//data.mycollection.sort();
-
-	for (var i = 0; i < data.mycollection.length; i++) {
-
-		$("#info").append("<p>" + data.mycollection[i].imageurl + "</p>")
-		$("#info").append("<div class='aclass'><div>new class</div><img src='" + data.mycollection[i].imageurl + "'></div>")
-
-		// where is says "body" --> you can attach it to anything like any div to have the info show up in a specific area
-
-	}
-})
-
-
-</script>
 
 
 
