@@ -2,7 +2,6 @@
 var url = "https://raw.githubusercontent.com/ewolf0/CoreInteraction/master/studio_project_4/collection_4.json";
 
 
-
 // console.log(url);
 
 
