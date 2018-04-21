@@ -2,7 +2,7 @@
 	"mycollection" : [
 		{
 			"title" : "ring 1",
-			"date" : "1930",
+			"date" : 1930,
 			"price" : 5500,
 			"estimate" :[2300, 3000],
 			"materials" : [
