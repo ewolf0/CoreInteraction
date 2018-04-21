@@ -9,6 +9,8 @@ $.getJSON(url, function(data){
 	console.log(data.mycollection);
 	//data.mycollection.sort();
 
+// console.log(Object.keys(url));
+
 	for (var i = 0; i < data.mycollection.length; i++) {
 
 		// $("#info").append("<p>" + data.mycollection[i].imageurl + "</p>")
@@ -28,4 +30,43 @@ $.getJSON(url, function(data){
 
 	}
 })
+
+
+$.getJSON(url, function(data){
+	console.log(data);
+
+	// console.log(Object.keys(data));
+	var keys = Object.keys(data);
+
+	for(var i = 0; i < keys.length; i = i + 1){
+		var o = document.createElement("option");
+		o.textContent = keys[i];
+		o.value = keys[i];
+		document.getElementById("dropdown1").appendChild(o);
+	}
+
+
+	document.getElementById("dropdown1").onchange = function(){
+		var key = document.getElementById("dropdown1").value;
+		var newList = data[key];
+		console.log(newList);
+
+
+		for(var i = 0; i < newList.length; i = i + 1){
+			var o = document.createElement("option");
+			o.textContent = newList[i];
+			o.value = newList[i];
+			document.getElementById("dropdown2").appendChild(o);
+		}
+
+	}
+
+});
+
+
+
+
+
+
+
 
