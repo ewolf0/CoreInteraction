@@ -1,5 +1,8 @@
 {
-	"rings" : [
+
+"mycollection" : [
+	
+	"rings"
 		{
 			"title" : "ring 1",
 			"date" : 1930,
@@ -224,15 +227,13 @@
 			],
 			"weight" : 5.8,
 			"imageurl" : "assets/img/ring16.jpeg"
-		}
-
-	],
+		},
 
 
 
 
 
-	"bracelets" : [
+	"bracelets"
 		{
 			"title" : "bracelet 1",
 			"date" : 1925,
@@ -343,9 +344,7 @@
 			],
 			"weight" : 40.7,
 			"imageurl" : "assets/img/bracelet08.jpeg"
-		}
-
-	],
+		},
 
 
 
@@ -353,7 +352,7 @@
 
 
 
-	"brooches" : [
+	"brooches"
 		{
 			"title" : "brooch 1",
 			"date" : 1930,
@@ -577,16 +576,10 @@
 			"imageurl" : "assets/img/brooch16.jpeg"
 		}
 
+
 ]
 
-
 }
-
-
-
-
-
-
 
 
 
