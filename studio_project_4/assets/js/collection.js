@@ -24,9 +24,9 @@ $.getJSON(url, function(data){
 	
 
 		$("#info").append("<div id='item_" + i + "' class='allitems'></div>")
-		$("#item_" + i ).append("<p>" + data.mycollection[i].title + "</p>")
-		$("#item_" + i ).append("<div>new</div>")
+		// $("#item_" + i ).append("<div>new</div>")
 		$("#item_" + i ).append("<img src='" + data.mycollection[i].imageurl + "'>")
+		$("#item_" + i ).append("<p>" + data.mycollection[i].title + "</p>")
 
 	}
 })
