@@ -1,4 +1,10 @@
 {
+	"testcollection" : [
+		{
+			"title" : "me",
+			"date" : "april 23"
+		}
+	],
 	"mycollection" : [
 		{
 			"title" : "ring 1",

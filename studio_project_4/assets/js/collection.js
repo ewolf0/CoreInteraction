@@ -49,13 +49,16 @@ $.getJSON(url, function(data){
 	document.getElementById("dropdown1").onchange = function(){
 		var key = document.getElementById("dropdown1").value;
 		var newList = data[key];
-		console.log(newList);
+		console.log("test:", newList);
 
 
 		for(var i = 0; i < newList.length; i = i + 1){
+
+			console.log("testing")
 			var o = document.createElement("option");
 			o.textContent = newList[i];
-			o.value = newList[i];
+			o.value = newList[i].name;
+			console.log("o.value: ", o.value);
 			document.getElementById("dropdown2").appendChild(o);
 		}
 
