@@ -27,6 +27,7 @@ $.getJSON(url, function(data){
 		// $("#item_" + i ).append("<div>new</div>")
 		$("#item_" + i ).append("<img src='" + data.mycollection[i].imageurl + "'>")
 		$("#item_" + i ).append("<p>" + data.mycollection[i].title + "</p>")
+		$("#item_" + i ).append("<img class='ray' src='./assets/hover2.png'>")
 
 	}
 })
@@ -56,11 +57,14 @@ $.getJSON(url, function(data){
 
 			console.log("testing")
 			var o = document.createElement("option");
-			o.textContent = newList[i];
-			o.value = newList[i].name;
+			o.textContent = newList[i].title;
+			o.value = newList[i].title;
 			console.log("o.value: ", o.value);
+			var title = o.value;
 			document.getElementById("dropdown2").appendChild(o);
 		}
+
+
 
 	}
 

@@ -103,21 +103,35 @@ p{
 
 .allitems{
 	margin:10px;
+	position: relative;
 }
 
-.allitems :hover{
+.ray{
+	display: none;
+	position: absolute;
+	top:-55px;
+	/*width: 60px;*/
+	height: 10px;
+	right: -50px;
+	z-index: 1000;
+}
+
+.allitems:hover > .ray{
+	display: block;
+	height: 140px;
+
 	/*position: relative;*/
-	cursor: pointer;
+	/*cursor: pointer;
 	content: url('../hover2.png');
-	/*display:block;*/
+	display:block;
 	position: absolute;
 	left:123px;
-	top:;
+	top:;*/
 }
 
-.allitems :hover:after {
+/*.allitems :hover:after {
 
-}
+}*/
 
 .allitems p{
 	font-size: 16px;
