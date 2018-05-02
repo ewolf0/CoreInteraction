@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+<style>
+div{
+	position:absolute;
+	background-color:black;
+}
+
+</style>
+
+
+</head>
+<body>
+
+
+
+<script>
+
+$.getJSON("https://raw.githubusercontent.com/robbykraft/CoreInteraction/master/divs.json", function(data){
+	for(var i = 0; i < data.length; i = i + 1){
+		var div = document.createElement("div");
+		div.style.top = data[i].top + "px";
+		// remember that you can SET THE STYLE
+		div.style.left = data[i].left + "px" ;
+		div.style.width = data[i].width + "px" ;
+		div.style.height = data[i].height + "px" ;
+		document.body.appendChild(div);
+	}
+}
+
+
+
+	);
+
+
+</script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

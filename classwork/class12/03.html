@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+<style>
+
+
+
+	#box{
+		width:900px;
+		height:900px;
+	}
+
+	div.allitems2000{
+		background-color: green;
+	}
+
+</style>
+</head>
+<body>
+
+<div id="box"></div>
+
+</body>
+<script>
+var url = "https://raw.githubusercontent.com/robbykraft/CoreInteraction/master/divs.json";
+
+$.getJSON(url, function(data){
+	console.log(data);
+	for (var i = 0; i < data.length; i++) {
+
+		$("#box").append("<div id='item_" + i + "' class='allitems" + data.length + "'></div>")
+		$("#item_" + i ).append("<p>" + data.title + "</p>")
+
+	}
+})
+
+
+for(var url)
+
+
+</script>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

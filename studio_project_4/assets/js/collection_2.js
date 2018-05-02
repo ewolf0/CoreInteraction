@@ -23,7 +23,7 @@ $.getJSON(url, function(data){
 			// this allows me to target one specific item
 	
 
-		$("#info").append("<div id='item_" + i + "' class='allitems'></div>")
+		$("#info").append("<div id='item_" + i + "' class='allitems date-" + data.mycollection[i].date + "'></div>")
 		// $("#item_" + i ).append("<div>new</div>")
 		$("#item_" + i ).append("<img src='" + data.mycollection[i].imageurl + "'>")
 		$("#item_" + i ).append("<p>" + data.mycollection[i].title + "</p>")
@@ -52,13 +52,30 @@ $.getJSON(url, function(data){
 		var newList = data[key];
 		console.log("test:", newList);
 
+var dates = [1930,1929] // you put the dates in a for loop to add them to the dropdown menu
+
+// then, onchange, get value that the menu is changed to, and search your objects for that class (i.e. date-value)
+// then: 
+
+/*
+	//pseudo code
+	if( this element has this class: date-value){
+		do nothing
+	} else{
+		display none (i.e. hide the element)
+	}
+
+
+
+*/
+
 
 		for(var i = 0; i < newList.length; i = i + 1){
 
 			console.log("testing")
 			var o = document.createElement("option");
-			o.textContent = newList[i].title;
-			o.value = newList[i].title;
+			o.textContent = newList[i].date;
+			o.value = newList[i].date;
 			console.log("o.value: ", o.value);
 			var title = o.value;
 			document.getElementById("dropdown2").appendChild(o);
