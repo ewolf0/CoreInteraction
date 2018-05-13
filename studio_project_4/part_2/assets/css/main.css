@@ -1,0 +1,67 @@
+
+
+
+
+.img{
+	height:30vw;
+	border:2px solid black;
+
+}
+
+div{
+	float: left;
+}
+
+div#divone{
+	width:100%;
+	margin-top: 8vh;
+
+}
+
+div#divone .img{
+	margin-left: 18vw;
+}
+
+div#divtwo{
+	width:100%;
+	margin-top: 4vh;
+
+}
+
+div#divtwo .img{
+	margin-left: 5vw;
+}
+
+div#divthree{
+	width:100%;
+}
+
+div#divfour{
+	width:50%;
+	margin-top: 6vh;
+
+}
+
+div#divfour .img{
+	margin-left: 15vw;
+}
+
+div#divfive{
+	width:50%;
+	margin-top: 11vh;
+}
+
+div#divfive .img{
+	margin-left: 10vw;
+}
+
+
+
+
+
+
+
+
+
+
+
