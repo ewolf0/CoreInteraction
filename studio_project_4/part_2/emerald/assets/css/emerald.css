@@ -1,0 +1,145 @@
+
+
+div{
+	float:left;
+}
+
+div.header{
+	width:100%;
+}
+
+div.top{
+	margin-top: 10vw;
+	width:100%;
+}
+
+div.buttons{
+	float:left;
+	width:25%;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: 800;
+	color:black;
+	font-size: 25px;
+	padding-top:4.5px;
+	text-align: right;
+}
+
+div.button1{
+	float:none;
+	color:black;
+}
+
+div.button1 a{
+	float:none;
+	color:black;
+	text-decoration: none;
+}
+
+div.button2{
+	float:none;
+}
+
+div.button2 a{
+	float:none;
+	color:black;
+	text-decoration: none;
+}
+
+div.title{
+	float:left;
+	width:60%;
+}
+
+div h1{
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: 800;
+	color:black;
+	font-size: 60px;
+}
+
+div.container1{
+	margin-top: 3vw;
+}
+
+div #about1{
+	width:65%;
+}
+
+div #about1 p{
+	font-size: 1.5vw;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	margin-left: 17vw;
+}
+
+div #object_image{
+	width:35%;
+}
+
+div #object_image img{
+	height:20vw;
+}
+
+
+
+
+
+
+/*div{
+	float:left;
+}
+
+div.header{
+	width:100%;
+}
+
+div.top{
+	margin-top: 70px;
+	width:100%;
+}
+
+div.buttons{
+	float:left;
+	width:25%;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: 800;
+	color:black;
+	font-size: 25px;
+	padding-top:4.5px;
+	text-align: right;
+}
+
+div.button1{
+	float:none;
+	color:black;
+}
+
+div.button1 a{
+	float:none;
+	color:black;
+	text-decoration: none;
+}
+
+div.button2{
+	float:none;
+}
+
+div.button2 a{
+	float:none;
+	color:black;
+	text-decoration: none;
+}
+
+div.title{
+	float:left;
+	width:40%;
+}
+
+div h1{
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: 800;
+	color:black;
+	font-size: 60px;
+}*/
+
