@@ -66,11 +66,12 @@ div #about1{
 }
 
 div #about1 p{
-	font-size: 1.5vw;
+	font-size: 2vw;
 	font-family: 'Merriweather Sans', sans-serif;
 	font-weight: 400;
 	font-style: italic;
-	margin-left: 17vw;
+	margin-left: 8vw;
+	width:85%;
 }
 
 div #object_image{
@@ -81,6 +82,20 @@ div #object_image img{
 	height:20vw;
 }
 
+div #about2{
+	width:100%;
+	margin-top: 3vw;
+}
+
+div #about2 p{
+	font-size: 2vw;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	margin-left: 18vw;
+	width:59.25%;
+
+}
 
 
 
