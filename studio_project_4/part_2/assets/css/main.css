@@ -1,4 +1,20 @@
 
+/*svg{
+	padding:none;
+}*/
+
+
+div #line{
+	padding-left: 200px;
+}
+/*svg #firstline line{
+	margin-left: 40px;
+}
+
+line{
+
+}*/
+
 .img{
 	height:30vw;
 	border:2px solid black;
@@ -21,7 +37,7 @@ div#divone .img{
 
 div#divtwo{
 	width:100%;
-	margin-top: 4vh;
+	/*margin-top: 4vh;*/
 
 }
 
