@@ -1,5 +1,3 @@
-
-
 div{
 	float:left;
 }
@@ -66,7 +64,7 @@ div #about1{
 }
 
 div #about1 p{
-	font-size: 2vw;
+	font-size: 3vw;
 	font-family: 'Merriweather Sans', sans-serif;
 	font-weight: 400;
 	font-style: italic;
@@ -88,7 +86,7 @@ div #about2{
 }
 
 div #about2 p{
-	font-size: 2vw;
+	font-size: 3vw;
 	font-family: 'Merriweather Sans', sans-serif;
 	font-weight: 400;
 	font-style: italic;
@@ -99,9 +97,74 @@ div #about2 p{
 
 div #images img{
 	height:20vw;
+	padding:2.5vw;
+	align-items: center;
+}
+/*------- CENTER THE IMAGES---------*/
+
+
+div #associates{
+	width:100%;
+	margin-top: 3vw;
+}
+
+div #associates h3{
+	font-size: 1.4vw;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	margin-left: 8vw;
+	margin-right:10vw;
+	width:80%;
+}
+
+div #associates p{
+	font-size: 1.2vw;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	margin-left: 8vw;
+	margin-right:10vw;
+	width:80%;
+}
+
+div #seen{
+	margin-top: 3.5vw;
+}
+
+div #seen #items{
+	width:47%;
+	margin-left: 7vw;
+}
+
+div #seen #items img{
+	height:20vw;
 }
 
 
+div #seenin{
+	width:45%;
+}
+
+div #seenin h3{
+	font-size: 3vw;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	/*margin-left: 8vw;*/
+	margin-right:10vw;
+	/*width:80%;*/
+}
+
+div #seenin p{
+	font-size: 3vw;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	/*margin-left: 8vw;*/
+	margin-right:10vw;
+	/*width:80%;*/
+}
 
 
 /*div{
