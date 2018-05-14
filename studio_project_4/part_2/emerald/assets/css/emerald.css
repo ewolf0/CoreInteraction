@@ -95,6 +95,10 @@ div #about2 p{
 
 }
 
+div #images{
+	margin-left: 10vw;
+}
+
 div #images img{
 	height:20vw;
 	padding:2.5vw;
