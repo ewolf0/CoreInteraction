@@ -96,11 +96,11 @@ div #about2 p{
 }
 
 div #images{
-	margin-left: 23vw;
+	margin-left: 10vw;
 }
 
 div #images img{
-	height:20vw;
+	height:15vw;
 	padding:2.5vw;
 	align-items: center;
 }
