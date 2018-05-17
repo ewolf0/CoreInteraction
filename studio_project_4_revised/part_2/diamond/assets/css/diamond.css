@@ -1,0 +1,230 @@
+div{
+	float:left;
+}
+
+div.header{
+	width:100%;
+}
+
+div.top{
+	margin-top: 10vw;
+	width:100%;
+}
+
+div.buttons{
+	float:left;
+	width:25%;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: 800;
+	color:black;
+	font-size: 25px;
+	padding-top:4.5px;
+	text-align: right;
+}
+
+div.button1{
+	float:none;
+	color:black;
+}
+
+div.button1 a{
+	float:none;
+	color:black;
+	text-decoration: none;
+}
+
+div.button2{
+	float:none;
+}
+
+div.button2 a{
+	float:none;
+	color:black;
+	text-decoration: none;
+}
+
+div.title{
+	float:left;
+	width:60%;
+}
+
+div h1{
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: 800;
+	color:black;
+	font-size: 60px;
+}
+
+div.container1{
+	margin-top: 3vw;
+}
+
+div #about1{
+	width:65%;
+}
+
+div #about1 p{
+	font-size: 3vw;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	margin-left: 8vw;
+	width:85%;
+}
+
+div #object_image{
+	width:35%;
+}
+
+div #object_image img{
+	height:20vw;
+}
+
+div #about2{
+	width:100%;
+	margin-top: 3vw;
+}
+
+div #about2 p{
+	font-size: 3vw;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	margin-left: 18vw;
+	width:59.25%;
+
+}
+
+div #images{
+	margin-left: 10vw;
+}
+
+div #images img{
+	height:15vw;
+	padding:2.5vw;
+	align-items: center;
+}
+/*------- CENTER THE IMAGES---------*/
+
+
+div #associates{
+	width:100%;
+	margin-top: 3vw;
+}
+
+div #associates h3{
+	font-size: 3vw;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	margin-left: 8vw;
+	margin-right:10vw;
+	width:80%;
+}
+
+div #associates p{
+	font-size: 3vw;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	margin-left: 8vw;
+	margin-right:10vw;
+	width:80%;
+}
+
+div #seen{
+	margin-top: 3.5vw;
+}
+
+div #seen #items{
+	width:47%;
+	margin-left: 7vw;
+}
+
+div #seen #items img{
+	height:20vw;
+}
+
+
+div #seenin{
+	width:45%;
+}
+
+div #seenin h3{
+	font-size: 3vw;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	/*margin-left: 8vw;*/
+	margin-right:10vw;
+	/*width:80%;*/
+}
+
+div #seenin p{
+	font-size: 3vw;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	/*margin-left: 8vw;*/
+	margin-right:10vw;
+	/*width:80%;*/
+}
+
+
+/*div{
+	float:left;
+}
+
+div.header{
+	width:100%;
+}
+
+div.top{
+	margin-top: 70px;
+	width:100%;
+}
+
+div.buttons{
+	float:left;
+	width:25%;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: 800;
+	color:black;
+	font-size: 25px;
+	padding-top:4.5px;
+	text-align: right;
+}
+
+div.button1{
+	float:none;
+	color:black;
+}
+
+div.button1 a{
+	float:none;
+	color:black;
+	text-decoration: none;
+}
+
+div.button2{
+	float:none;
+}
+
+div.button2 a{
+	float:none;
+	color:black;
+	text-decoration: none;
+}
+
+div.title{
+	float:left;
+	width:40%;
+}
+
+div h1{
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: 800;
+	color:black;
+	font-size: 60px;
+}*/
+
